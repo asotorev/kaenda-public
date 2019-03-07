@@ -1,0 +1,14 @@
+
+@import "variables";
+@import "mixins";
+
+html{
+    color: $text-white;
+    font-family: $font;
+    font-size: map-get($fs , normal );
+}
+body{
+    margin: 0px;
+}
+
+
